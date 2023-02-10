@@ -1,0 +1,14 @@
+﻿<Window x:Class="GlyphRunIssue.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GlyphRunIssue"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1024">
+    <DockPanel >
+        <Button Name="btnPrint" DockPanel.Dock="Top" Height="40" Content="Print" Click="btnPrint_Click" />
+        <local:VisualContainer x:Name="visualContainer"/>
+    </DockPanel>
+
+</Window>
